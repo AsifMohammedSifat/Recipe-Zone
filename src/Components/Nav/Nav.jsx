@@ -1,5 +1,5 @@
 import { RiAccountCircleLine } from "react-icons/ri";
-import SearchBar from "../../SearchBar/SearchBar";
+import SearchBar from "../SearchBar/SearchBar";
 
 const Nav = () => {
   return (
