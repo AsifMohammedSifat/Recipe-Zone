@@ -21,11 +21,11 @@ const Recipes = () => {
     // const totalCal = cooks.reduce((acc, cook) => acc + cook.caloriesPerServing, 0);    
     // setTime(totalTime);
     // setCal(totalCal);
-    
+
     cooks.map((cook) => {
       let newTime = cook.prepTimeMinutes;
       let newCal = cook.caloriesPerServing;
-      console.log(newTime, newCal);
+    //   console.log(newTime, newCal);
       setTime(newTime + cook.prepTimeMinutes);
       setCal(newCal + cook.caloriesPerServing);
     });
